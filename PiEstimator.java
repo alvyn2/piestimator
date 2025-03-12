@@ -61,7 +61,7 @@ public static void main(String[] args) {
 	    JButton b=new JButton("Click Here");  
 	    JLabel example = new JLabel("actual Pi"+Double.toString(Math.PI));// actual pi
 		JLabel estimate = new JLabel("pi estimate:");
-	    f.add(example);
+		f.add(example);
 		f.add(estimate);
 	    f.add(b);  
 	    f.setSize(300,300);  
